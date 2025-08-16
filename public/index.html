@@ -25,6 +25,24 @@
       </div>
       <!-- button -->
       <a href="#" class="hidden p-3 px-6 pt-2 text-white bg-brightred rounded-full baseline hover:bg-brightredlight md:block">Get Started</a>
+
+      <!-- hamburger icon -->
+      <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+        <span class="hamburger-top"></span>
+        <span class="hamburger-middle"></span>
+        <span class="hamburger-bottom"></span>
+      </button>
+    </div>
+
+    <!-- mobile menu -->
+    <div class="md:hidden">
+      <div id="menu" class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center top-12 left-6 right-6 drop-shadow-md">
+        <a href="#">Pricing</a>
+        <a href="#">Product</a>
+        <a href="#">About Us</a>
+        <a href="#">Careers</a>
+        <a href="#">Community</a>
+      </div>
     </div>
   </nav>
 
@@ -56,11 +74,11 @@
     <!-- flex container -->
     <div class="container flex flex-col px-4 mx-auto mt-10 space-y-12 md:space-y-0 md:flex-row">
       <!-- what's different -->
-      <div class="flex flex-col space-y-12 md:w-1/2">
+      <div class="flex flex-col space-y-12 text-center md:w-1/2">
         <h2 class="max-w-md text-4xl font-bold text-center md:text-left">
           What's different about Manage
         </h2>
-        <p class="max-w-sm text-center text-darkgrayishblue md:text-left">
+        <p class="max-w-md text-center text-darkgrayishblue md:text-left">
           Manage provides all the functionality your team needs, without the complexity. Our software is tailor-made for modern digital product
           teams.
         </p>
@@ -209,7 +227,7 @@
           <img src="img/logo-white.svg" class="h-8" alt="">
         </div>
         <!-- social links container -->
-        <div class="flex justify-center space-x-4">
+        <div class="flex justify-center mb-4 space-x-4">
           <!-- link 1 -->
           <a href="#">
             <img src="img/icon-facebook.svg" class="h-8" alt="">
@@ -263,5 +281,7 @@
       </div>
     </div>
   </footer>
+
+  <script src="main.js"></script>
 </body>
 </html>
